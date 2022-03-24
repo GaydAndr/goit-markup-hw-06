@@ -231,11 +231,15 @@ img{
   margin-right: 70px;
 }
 
-.info-social p{
+.info-social{
+   margin-right: 70px;
+}
+
+.info-social p, .subscribe{
   margin-bottom: 20px;
 
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--second-txt-color); 
@@ -246,6 +250,72 @@ img{
   color: var(--second-txt-color);
   background-color: var(--footer-bg-icon);
 }
+
+.form-footer{
+  flex-grow: 1;
+}
+
+.subscribe-fld{
+  display: flex;
+
+}
+
+.inptfld{
+  flex-grow: 1;
+  height: 50px;
+  margin-right: 12px;
+  padding: 15px 16px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: var(--second-txt-color);
+}
+
+.inptfld::placeholder{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+
+}
+
+.subscribebtn{
+  width: 200px;
+  height: 50px;
+
+  padding: 10px 29px;
+  border: none;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--second-txt-color);
+}
+
+.subscribebtn .icon{
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  fill: var(--second-txt-color);
+}
+
+
 
 /*? Studio */
 
