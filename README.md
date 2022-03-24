@@ -1,1 +1,1 @@
-https://gaydandr.github.io/goit-markup-hw-05/
+https://gaydandr.github.io/goit-markup-hw-06/
