@@ -608,6 +608,7 @@ color: var(--second-txt-color);
 .card .title-content{
   padding: 20px 24px;
   border-right: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
 }
 
